@@ -1,0 +1,110 @@
+body
+{
+background-color: #faf8f4;
+}
+#First-Section
+{
+    border: 2px solid red ;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 14vh;
+}
+.navbar
+{
+    background-color:  #faf8f4 !important;
+    position: fixed; /* Fixes the navbar at the top */
+    top: 0; /* Keeps it at the top */
+    width: 100%; /* Makes sure the navbar spans the entire width */
+    padding: 10px; /* Optional padding for spacing */
+    z-index: 100000;
+}
+
+.navbar
+{
+    border: 2px solid yellow;
+}
+
+#navbarNav
+{
+    border: 2px solid red;
+    float: right;
+    width: 50px;
+    justify-content: center;
+}
+
+.navbar-brand
+{
+    border: 2px  solid green;
+    width: 60vw;
+    font-family: Playfair;
+    font-weight: 900;
+    font-size: xx-large;
+    text-transform: uppercase;
+    letter-spacing: -0.08em;
+}
+
+.navbar-brand img
+{
+margin-left: 5%;
+}
+
+.nav-item
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Lower
+{
+    border: 2px solid yellow;
+    width: 100vw;
+    height: 50vh;
+    border-top-left-radius: 60px; 
+    border-top-right-radius: 60px;
+    background-color: #0d221b;
+}
+.Upper
+{
+    border: 2px solid green;
+    width: 100vw;
+    height: 50vh;
+}
+.Logo-Above {
+    position: absolute;            /* Allows free positioning */
+    top: 55%;                      /* Vertically center the div */
+    right: 0;                      /* Align the div to the right */
+    transform: translateY(-50%);   /* Center the div vertically */
+    z-index: 1000;                 /* Ensure it stays above other divs */
+    width: 40vw;                   /* Set width relative to viewport width */
+    height: 50vh;                  /* Set height relative to viewport height */
+    margin-right: 2.5%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Upper, .Lower {
+    position: relative; /* Ensure these are positioned normally */
+}
+
+.Pagetext-display
+{
+    border: 2px red solid;
+    width: 50vw;
+    height: 50%;
+    align-content: center;
+    align-self: center;
+    display: flex;
+    margin-top: 20vh;
+    margin-left: 10vh;
+}
+.Pagetext-display p
+{
+    font-size: 100px;
+    font-size: 100px;
+    font-weight: 600;          /* Sets the font weight to 300 */
+    font-family: 'Host Grostesk', sans-serif;
+    color: #0d221b;
+    text-transform: uppercase;
+    line-height: 1;
+}
